@@ -299,18 +299,21 @@ footer {
         align-items: center;
         text-align: center;
         padding: 2rem;
+        gap: 3rem;
     }
 
     .flow {
         flex-direction: column;
         align-items: center;
         text-align: center;
+        gap: 3rem;
     }
 
     .user {
         flex-direction: column-reverse;
         align-items: center;
-        text-align: center
+        text-align: center;
+        gap: 3rem;
     }
 
     .image-text {
@@ -346,19 +349,20 @@ footer {
 @media screen and (max-width: 840px) {
     .grow {
         padding: 2rem;
+        gap: 3rem;
     }
 
     .flow {
         padding: 2rem;
+        gap: 3rem;
     }
 
     .user {
         padding: 2rem;
+        gap: 3rem;
     }
 
-    .image-div {
-        padding: 0;
-    }
+
 
     .bottom {
         padding: 50px 0;
