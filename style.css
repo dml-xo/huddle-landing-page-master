@@ -1,0 +1,399 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.panel {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Open Sans", sans-serif;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    background-image: url(images/bg-hero-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    background-color: #edfbfe;
+    width: 100%;
+    gap: 4rem;
+    padding: 3rem 4rem;
+}
+
+.top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.try {
+    border: none;
+    color: #36494e;
+    background-color: white;
+    padding: 20px 70px;
+    font-size: 15px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.try:hover {
+    cursor: pointer;
+}
+
+.top img {
+    width: 300px;
+    height: 50px;
+}
+
+.text-area {
+    display: flex;
+    width: 100%;
+    gap: 4rem;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    width: 100%;
+    gap: 2rem;
+}
+
+h1 {
+    color: #02242c;
+    font-family: "Poppins", sans-serif;
+    font-size: 50px;
+}
+
+.p1 {
+    color: #02242c;
+    font-size: 20px;
+}
+
+.start1 {
+    color: #fff;
+    background-color: #fe51c0;
+    border: none;
+    padding: 20px 70px;
+    font-weight: bold;
+    border-radius: 30px;
+}
+
+.start1:hover {
+    cursor: pointer;
+    background-color: #ff9bdb;
+}
+
+.mockup {
+    width: 100%;
+}
+
+.mockup img {
+    width: 100%;
+    height: 100%;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    padding: 10rem 5rem 5rem 5rem;
+    gap: 4rem;
+}
+
+.grow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #f9f9f9;
+    padding: 4rem;
+    border-radius: 20px;
+    width: 100%;
+    gap: 10rem;
+
+}
+
+.flow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #f9f9f9;
+    padding: 4rem;
+    border-radius: 20px;
+    width: 100%;
+    gap: 10rem;
+
+
+}
+
+.user {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #f9f9f9;
+    padding: 3rem;
+    border-radius: 20px;
+    width: 100%;
+    gap: 10rem;
+}
+
+
+.image {
+    width: 80%;
+    height: 80%;
+}
+
+.image-text {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: center;
+    gap: 2rem;
+    max-width: 700px;
+}
+
+h3 {
+    color: #02242c;
+    font-family: "Poppins", sans-serif;
+    font-size: 40px;
+}
+
+.p2 {
+    font-size: 25px;
+    color: #acb2b7;
+    line-height: 1.5;
+}
+
+.bottom {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 5px solid #f9f9f9;
+    padding: 50px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: -12rem;
+    gap: 3rem;
+    font-family: "Poppins", sans-serif;
+    font-size: 20px;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.start2 {
+    color: #fff;
+    background-color: #fe51c0;
+    border: none;
+    padding: 20px 70px;
+    font-weight: bold;
+    border-radius: 30px;
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+
+.start2:hover {
+    cursor: pointer;
+    background-color: #ff9bdb;
+}
+
+footer {
+    background-color: #00252e;
+    color: #9eb6bc;
+    display: flex;
+    padding: 10rem 4rem 5rem 5rem;
+    justify-content: space-between;
+
+}
+
+.location {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    max-width: 600px;
+}
+
+.contact {
+    display: flex;
+    flex-direction: row;
+    gap: 15px;
+}
+
+.rep {
+    width: 15px;
+    height: 15px;
+}
+
+.logo2 {
+    width: 300px;
+    height: 50px;
+}
+
+.p3 {
+    font-size: 20px;
+}
+
+.list-div {
+    display: flex;
+    font-size: 20px;
+    gap: 5rem;
+    line-height: 2;
+}
+
+.p4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.icon-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.icon {
+    display: flex;
+    gap: 15px;
+}
+
+.icon img {
+    width: 40px;
+    height: 40px;
+    padding: 8px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+
+.icon img:hover {
+    cursor: pointer;
+}
+
+@media screen and (max-width: 950px) {
+    .text-area {
+        flex-direction: column;
+    }
+
+    .panel {
+        width: 100%;
+    }
+
+    .intro {
+        width: 100%;
+    }
+
+    .text {
+        align-items: center;
+        text-align: center;
+        justify-content: center;
+    }
+
+    .grow {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center;
+        padding: 2rem;
+    }
+
+    .flow {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .user {
+        flex-direction: column-reverse;
+        align-items: center;
+        text-align: center
+    }
+
+    .image-text {
+        align-items: center;
+    }
+
+    footer {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .list-div {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .icon-div {
+        gap: 2rem;
+        align-items: center;
+    }
+
+    .content {
+        padding: 3rem 2rem;
+    }
+}
+
+@media screen and (max-width: 855px) {
+    .content {
+        padding: 2rem 0;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .grow {
+        padding: 2rem;
+    }
+
+    .flow {
+        padding: 2rem;
+    }
+
+    .user {
+        padding: 2rem;
+    }
+
+    .image-div {
+        padding: 0;
+    }
+
+    .bottom {
+        padding: 50px 0;
+        width: 90%;
+    }
+
+    .location {
+        margin-top: 2rem;
+    }
+
+    .intro {
+        padding: 2rem 1rem;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .top img {
+        width: 40%;
+        height: 30px;
+    }
+
+    .try {
+        width: 40%;
+        padding: 10px 30px;
+    }
+
+    footer {
+        padding: 10rem 1rem 2rem 1rem;
+    }
+
+    .bottom {
+        text-align: center;
+    }
+
+    .logo2 {
+        width: 70%;
+    }
+}
